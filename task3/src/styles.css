@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box
+} 
+
+.body {
+    display: inline-flex; 
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.input {
+    width: 150px;
+}
+
+.button_submit {
+    width: 150px;
+}
+
+.error {
+    color: coral;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.result__item {
+    height: 100px;
+}

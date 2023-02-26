@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box
+} 
+
+.body {
+    display: inline-flex; 
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.input {
+    width: 150px;
+}
+
+.button_submit {
+    width: 150px;
+}
+
+.error {
+    color: coral;
+}
